@@ -55,13 +55,9 @@ function validateInput() {
     return valid;
 }
 
-// Submit form event
 form.addEventListener('submit', function (event) {
     event.preventDefault();
-
-    // Validate the form
     if (validateInput()) {
-        
         const formData = new FormData(form);
 
         fetch('https://formspree.io/f/xzzbpqbw', { 
