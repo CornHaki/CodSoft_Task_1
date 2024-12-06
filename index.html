@@ -227,27 +227,27 @@
     </footer>
     <script>
         function updateClock() {
-            const now = new Date(); // Get current date and time
+            const now = new Date(); 
             
-            // Format the time
+           
             const hours = now.getHours().toString().padStart(2, '0');
             const minutes = now.getMinutes().toString().padStart(2, '0');
             const seconds = now.getSeconds().toString().padStart(2, '0');
     
-            // Format the date as dd/mm/yyyy
+            
             const day = now.getDate().toString().padStart(2, '0');
-            const month = (now.getMonth() + 1).toString().padStart(2, '0'); // Months are zero-based
+            const month = (now.getMonth() + 1).toString().padStart(2, '0'); 
             const year = now.getFullYear();
     
-            const formattedDate = `${day}/${month}/${year}`; // Format as dd/mm/yyyy
+            const formattedDate = `${day}/${month}/${year}`; 
     
-            // Update the inner HTML of the clock div
+            
             document.getElementById('clock').innerHTML = `${formattedDate}   ${hours}:${minutes}:${seconds}`;
         }
     
-        // Call updateClock immediately and set it to run every second
+        
         setInterval(updateClock, 1000);
-        updateClock(); // Initial call
+        updateClock(); 
     </script>
 
 <script src="script.js"></script>
