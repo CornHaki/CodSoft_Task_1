@@ -318,7 +318,7 @@ footer{
 }
 .contacts {
     max-width: 600px;
-    margin: 100px auto; /* This centers the contact section horizontally */
+    margin: 100px auto; 
     text-align: center;
     background-image: url(334ac08894c8d6879057b6cf07f055f9.jpg);
     background-size: cover;
@@ -339,9 +339,9 @@ footer{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* 50% opacity */
+    background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 50px;
-    z-index: -1; /* Ensure it's behind the content */
+    z-index: -1; 
     filter: brightness(0.5%);
     
 }
@@ -588,7 +588,7 @@ body{
 
 .mh-skills {
     max-width: 600px;
-    margin: 100px auto; /* This centers the contact section horizontally */
+    margin: 100px auto; 
     text-align: center;
     background-image: url(334ac08894c8d6879057b6cf07f055f9.jpg);
     background-size: cover;
@@ -609,9 +609,9 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* 50% opacity */
+    background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 50px;
-    z-index: -1; /* Ensure it's behind the content */
+    z-index: -1; 
     filter: brightness(0.5%);
     
 }
@@ -647,8 +647,8 @@ body{
 .download-btn {
     display: inline-block;
     margin-top: 20px;
-    background-color: #007bff; /* Blue color */
-    color: #fff; /* White text */
+    background-color: #007bff; 
+    color: #fff; 
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -658,12 +658,12 @@ body{
 }
 
 .download-btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3; 
     text-decoration: none;
 }
 .resume-section {
     max-width: 500px;
-    margin: 100px auto; /* This centers the contact section horizontally */
+    margin: 100px auto; 
     text-align: center;
     background-image: url(334ac08894c8d6879057b6cf07f055f9.jpg);
     background-size: cover;
@@ -684,9 +684,9 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* 50% opacity */
+    background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 50px;
-    z-index: -1; /* Ensure it's behind the content */
+    z-index: -1; 
     filter: brightness(0.5%);
     
 }
