@@ -9,7 +9,6 @@ body, html {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #000000f1;
     position: fixed;
     width: 100%;
     top: 0;
