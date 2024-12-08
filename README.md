@@ -33,7 +33,13 @@ To set up the project locally, follow these steps:
     ```bash
    open index.html
    
----
+ ---
+
+## Live Demo 🚀
+[Visit Here](https://cornhaki.github.io/CodSoft_Task_1/)
+
+ ---
+
 
 ## Screenshots 📸
 ![3D Calculator Screenshot](assets/image1.png)
